@@ -6,7 +6,7 @@ relational database management system (RDBMS), which itself is a software system
 types of databases basically contain data in simple table formats, showing information for one type of entity. Every row/record represents
 an entity, and every column/field represents an attribute for all the rows in that table. Known RDBMS which use SQL are: Oracle, Sybase, Microsoft SQL Server, 
 Access, Ingres, etc. These share a basis, but often have extensions to this that are specific to their own system. Here we will 
-learn some of these basics. Like: creating, manipulating, and querying.
+learn some of these basics. Like: creating, manipulating, and querying. We will learn in PostgreSQL, which is a successor or Ingres. this RDBMS is free and open-source.
 
 ## Selecting
 
