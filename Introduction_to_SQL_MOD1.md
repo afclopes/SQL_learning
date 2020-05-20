@@ -15,7 +15,7 @@ Use command `SELECT`  to access the table and the column in that table.
 ### Selecting Individual Columns
 
 If we have a table called "people", and a column called "name", we can find items in that table and column by:
- `SELECT name FROM people`
+ ```sql SELECT name FROM people```
  
  In SQL, words like SELECT and FROM are known as keywords. Despite them not being case sensitive, we will use them in capitals here 
  to make it easier to spot them we are using each keyword.
