@@ -19,9 +19,9 @@ WHERE keyword can be used together with the AND keyword. This allows us to speci
 with AND, you can select multiple conditions. The important thing to remember here, is that every new condition needs to be specified
  on a separate line, eg.:
  
- `SELECT * FROM films WHERE release_year = 2000 
+ ```SELECT * FROM films WHERE release_year = 2000 
  
- AND country ='China';`
+ AND country ='China';```
 
 #### WHERE plus OR
 
@@ -30,6 +30,7 @@ Allows us to enquiry about situations where some but not all conditions must be 
 Similar to when using WHERE plus AND, each condition needs to be placed in a new line like:
 
 `SELECT * FROM films WHERE release_year =2000
+
 OR release_year = 1970;`
 
 #### WHERE plus IN
@@ -37,6 +38,7 @@ OR release_year = 1970;`
 In order to avoid repetition and long enquiries with OR, we can simplify an enquiry as such:
 
 `SELECT title FROM films
+
 WHERE release_years IN (1970, 1980, 1990, 2000);`
 
 
@@ -45,7 +47,9 @@ WHERE release_years IN (1970, 1980, 1990, 2000);`
 This can also be taken to the next level when you mix WHERE, AND plus OR, eg:
 
 `SELECT * FROM films
+
 WHERE (release_year = 1970 OR release_year = 2000)
+
 AND (certification = 'PG' OR certification ='R')`
 
 #### BETWEEN
