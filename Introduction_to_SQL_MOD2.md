@@ -19,8 +19,9 @@ WHERE keyword can be used together with the AND keyword. This allows us to speci
 with AND, you can select multiple conditions. The important thing to remember here, is that every new condition needs to be specified
  on a separate line, eg.:
  
- ```SELECT * FROM films WHERE release_year = 2000 
- AND country ='China';```
+ `SELECT * FROM films WHERE release_year = 2000 
+ 
+ AND country ='China';`
 
 #### WHERE plus OR
 
