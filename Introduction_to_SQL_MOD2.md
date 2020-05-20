@@ -25,7 +25,8 @@ with AND, you can select multiple conditions. The important thing to remember he
  ```sql
  SELECT * FROM films WHERE release_year = 2000 
  
- AND country ='China';```
+ AND country ='China';
+ ```
 
 
 #### WHERE plus OR
